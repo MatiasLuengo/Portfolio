@@ -1,12 +1,13 @@
-import { useState } from 'react'
 import './App.css'
-
+import { NavBar } from './components/NavBar'
+import { SideBar } from './components/SideBar'
+import { Footer } from './components/Footer'
 function App() {
-  const [count, setCount] = useState(0)
-
   return (
     <>
-      <h1>Matías Luengo</h1>
+      <NavBar/>
+      <SideBar/>
+      <Footer/>
     </>
   )
 }
