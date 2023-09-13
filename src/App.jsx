@@ -47,12 +47,12 @@ function App() {
       <NavBar/>
       <SideBar/>
       <main className='mx-16 mt-20 xsm:mt-0 text-center h-screen flex flex-col items-center justify-center'>
-        <div ref={saludoRef} id='saludo' className='opacity-0 scale-75'>
-          <div className='flex items-center gap-6'>
-            <img className='w-10 h-10 animate-bounce' src={imgCode} alt="Icono de código" />
-            <h1 className='text-5xl font-semibold font-quicksand'>Hola, soy Matías Luengo</h1>
+        <div ref={saludoRef} id='saludo' className='opacity-0 scale-75 w-full'>
+          <div className='flex gap-x-6 items-center justify-center flex-wrap'>
+            <img className='w-10 h-10 animate-bounce mt-36 xsm:mt-28 sm:mt-0' src={imgCode} alt="Icono de código" />
+            <h1 className='text-5xl font-semibold w-fit'>Hola, soy Matías Luengo</h1>
           </div>
-          <h2 className='text-2xl'>Soy Técnico en Programación centrado en el desarrollo Frontend</h2>
+          <h2 className='text-2xl mt-4 sm:mt-0'>Soy Técnico en Programación centrado en el desarrollo Frontend</h2>
         </div>
       </main>
       <Proyects/>
