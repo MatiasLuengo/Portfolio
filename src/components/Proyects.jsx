@@ -25,13 +25,13 @@ export const Proyects = ({ }) => {
         <div className='bg-central-blue'>
                     <section className="text-center py-8 mx-16">
                         <h1  className='text-5xl font-semibold text-white'>Mis Proyectos 📂</h1>
-                        <h2 className='text-2xl mb-14 text-white'>Aquí podrá ver algunos de mis proyectos personales y encargados</h2>
+                        <h2 className='text-2xl mb-14 text-white mt-4 sm:mt-0'>Aquí podrá ver algunos de mis proyectos personales y encargados</h2>
 
                         <Proyect
                         img={imgBuhoLibros}
                         imgAlt="Web Buho Libros"
                         title="Buho Libros"
-                        description={`El proyecto Buho Libros está diseñado para cumplir con el objetivo de, en primera medida, ser un boceto para un e-commerce, proyecto que puede escalar hasta convertirse en uno. La tienda esta orientada a la venta de libros.\nEl proyecto está vinculado con una base de datos de Firestore, la cual nutre con los productos disponibles y a su ves guarda las simulaciones de ordenes de compra`}
+                        description="El proyecto Búho Libros está diseñado para cumplir con el objetivo de, en primera medida, ser un boceto para un e-commerce, el cual puede escalar hasta convertirse en uno. La tienda está orientada a la venta de libros. El proyecto está vinculado con una base de datos de Firestore, la cual nutre con los productos disponibles y a su vez guarda las simulaciones de órdenes de compra."
                         url="https://buho-libros.vercel.app/"
                         utilities={[react, firestore, css3, html5]}
                         orderImg="lg:order-first"/>
@@ -40,7 +40,7 @@ export const Proyects = ({ }) => {
                         img={imgUtnWallet}
                         imgAlt="Web Utn Wallet"
                         title="UTN Wallet"
-                        description="Fusce vehicula, erat in ultricies faucibus, magna est egestas odio, quis pellentesque turpis nunc a orci. Vivamus sodales nunc eget mi pellentesque, vel mattis mi tempor. Sed vestibulum dolor enim, et ornare justo facilisis quis. Mauris et mauris lectus. Sed non augue lacus. Praesent tincidunt in est eget sodales. Nam auctor sem at dui fringilla, id sagittis arcu volutpat."
+                        description="Este proyecto simula un Exchange de cripto monedas. El mismo consume la Api de Cripto Ya, la cual nos permite obtenerlas cotizaciones en tiempo real, podremos simular compras y ventas, tener un historial y poder manipularlo, además nos brinda una billetera con las conversiones y análisis de inversiones."
                         url="https://utnwallet-exchange.vercel.app/"
                         utilities={[vue, css3, html5]}
                         orderImg="lg:order-last"/>
@@ -49,7 +49,7 @@ export const Proyects = ({ }) => {
                         img={imgMatiasLuengo}
                         imgAlt="Web Matías Luengo"
                         title="Esta Web :)"
-                        description="Fusce vehicula, erat in ultricies faucibus, magna est egestas odio, quis pellentesque turpis nunc a orci. Vivamus sodales nunc eget mi pellentesque, vel mattis mi tempor. Sed vestibulum dolor enim, et ornare justo facilisis quis. Mauris et mauris lectus. Sed non augue lacus. Praesent tincidunt in est eget sodales. Nam auctor sem at dui fringilla, id sagittis arcu volutpat."
+                        description="Donde le permite conocerme un poco más, ver mis estudios y en que he trabajado."
                         url="#"
                         utilities={[react, tailwind, html5]}
                         orderImg="lg:order-first"/>
@@ -58,7 +58,7 @@ export const Proyects = ({ }) => {
                         img={imgEud}
                         imgAlt="Web EUD Youth Department"
                         title="EUD Youth Department"
-                        description="Fusce vehicula, erat in ultricies faucibus, magna est egestas odio, quis pellentesque turpis nunc a orci. Vivamus sodales nunc eget mi pellentesque, vel mattis mi tempor. Sed vestibulum dolor enim, et ornare justo facilisis quis. Mauris et mauris lectus. Sed non augue lacus. Praesent tincidunt in est eget sodales. Nam auctor sem at dui fringilla, id sagittis arcu volutpat."
+                        description="Este proyecto consistió en una prueba de una empresa, el cual debía desarrollar en base a un diseño otorgado. La misma se pasó con éxito."
                         url="https://luengomatias-eudyouth-tailwindproject.netlify.app/"
                         utilities={[javaScript, tailwind, html5]}
                         orderImg="lg:order-last"/>
@@ -67,7 +67,7 @@ export const Proyects = ({ }) => {
                         img={imgDM}
                         imgAlt="Web Distribuidora Médica"
                         title="Distribuidora Médica"
-                        description="Fusce vehicula, erat in ultricies faucibus, magna est egestas odio, quis pellentesque turpis nunc a orci. Vivamus sodales nunc eget mi pellentesque, vel mattis mi tempor. Sed vestibulum dolor enim, et ornare justo facilisis quis. Mauris et mauris lectus. Sed non augue lacus. Praesent tincidunt in est eget sodales. Nam auctor sem at dui fringilla, id sagittis arcu volutpat."
+                        description="De momento no se encuentra en producción. Este proyecto representó mi tesis, el mismo lo lleve a cabo en la empresa Distribuidora Médica y tiene como función ser un catálogo de los productos que ofrece y generar un contacto con el usuario final. Gracias a Identity de ASP.NET Core, generé acceso para usuarios registrados que son los habilitados para trabajar con el CRUD, vinculado con una base de datos relacional de SQL que es manipulada por Entity Framework."
                         url="https://github.com/MatiasLuengo/DistribuidoraMedica-PPS"
                         utilities={[cSharp, sql, css3, html5]}
                         orderImg="lg:order-first"/>
@@ -76,7 +76,7 @@ export const Proyects = ({ }) => {
                         img={imgTailwind}
                         imgAlt="Web Tailwind Practice"
                         title="Práctica de Tailwind"
-                        description="Fusce vehicula, erat in ultricies faucibus, magna est egestas odio, quis pellentesque turpis nunc a orci. Vivamus sodales nunc eget mi pellentesque, vel mattis mi tempor. Sed vestibulum dolor enim, et ornare justo facilisis quis. Mauris et mauris lectus. Sed non augue lacus. Praesent tincidunt in est eget sodales. Nam auctor sem at dui fringilla, id sagittis arcu volutpat."
+                        description="Este proyecto representa un curso realizado para montar mis bases sobre Tailwind."
                         url="https://tailwindcss-web.netlify.app/"
                         utilities={[tailwind, html5]}
                         orderImg="lg:order-last"/>
@@ -85,7 +85,7 @@ export const Proyects = ({ }) => {
                         img={imgBlogDeCafe}
                         imgAlt="Web Blog de Café"
                         title="Blog de Café (Práctica)"
-                        description="Fusce vehicula, erat in ultricies faucibus, magna est egestas odio, quis pellentesque turpis nunc a orci. Vivamus sodales nunc eget mi pellentesque, vel mattis mi tempor. Sed vestibulum dolor enim, et ornare justo facilisis quis. Mauris et mauris lectus. Sed non augue lacus. Praesent tincidunt in est eget sodales. Nam auctor sem at dui fringilla, id sagittis arcu volutpat."
+                        description="Mis inicios en la programación."
                         url="https://matiasluengo-blogdecafe.netlify.app/"
                         utilities={[css3, html5]}
                         orderImg="lg:order-first"/>
