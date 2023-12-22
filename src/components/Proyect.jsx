@@ -5,7 +5,7 @@ export const Proyect = ({ img, imgAlt, title, description, url, utilities, order
             <div className='p-2 flex flex-col justify-between'>
                 <div className='border-t-2 lg:border-t-0'>
                     <h3 className='text-start text-xl font-bold pt-4 lg:pt-0'>{title}</h3>
-                    <p className='text-start py-2'>{description}</p>
+                    <p className='text-start py-2'dangerouslySetInnerHTML={{ __html: description }}></p>
                 </div>
                 <div className='border-t-2 flex flex-wrap items-center justify-center gap-3 p-2'>
                     {utilities.map((utility, index) => (
