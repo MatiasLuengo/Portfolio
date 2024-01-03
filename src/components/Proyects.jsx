@@ -34,8 +34,8 @@ export const Proyects = ({ }) => {
                         img={imgMsf}
                         imgAlt="Web Msf Tech"
                         title="MSF Tech"
-                        description="En proceso. <br/>Web institucional de la empresa MSF Tech.<br/>Primer trabajo freelancer llevado a cabo para actualizar su web existente y darle presencia conectándola con sus redes sociales."
-                        url="https://msf-web-matiasluengo.vercel.app/"
+                        description="Web institucional de la empresa MSF Tech.<br/>Primer trabajo freelancer llevado a cabo para actualizar su web existente y darle presencia conectándola con sus redes sociales."
+                        url="www.msftech.com.ar"
                         utilities={[react, tailwind, html5]}
                         orderImg="lg:order-first"/>
 
