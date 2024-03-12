@@ -77,76 +77,70 @@ export const Proyects = () => {
           <h2 className="text-2xl mb-14 text-white mt-4 sm:mt-0">
             Aquí podrá ver algunos de mis proyectos personales y encargados
           </h2>
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-10 lg:w-10/12 mx-auto">
+            <Proyect
+              image={imgMsf}
+              imgAlt="Web Msf Tech"
+              title="MSF Tech"
+              description="Web institucional de la empresa MSF Tech.<br/>Trabajo freelancer llevado a cabo para actualizar su web existente y darle presencia conectándola con sus redes sociales."
+              url="http://www.msftech.com.ar/"
+              utilities={[react, tailwind, html5]}
+            />
 
-          <Proyect
-            image={imgMsf}
-            imgAlt="Web Msf Tech"
-            title="MSF Tech"
-            description="Web institucional de la empresa MSF Tech.<br/>Trabajo freelancer llevado a cabo para actualizar su web existente y darle presencia conectándola con sus redes sociales."
-            url="http://www.msftech.com.ar/"
-            utilities={[react, tailwind, html5]}
-            orderImg="lg:order-first"
-          />
+            <Proyect
+              image={reciclame}
+              imgAlt="Web Recíclame"
+              title="Recíclame"
+              description="Segunda simulación laboral bajo el entorno del seleccionado de <b>No Contry</b>.<br/><br/>Recíclame es una red social destinada a la publicación de materiales reciclables, desarrollada con Java, Spring boot, Next Js, Tailwind, SQL."
+              url="https://s13-16-t-java-next-frontend.vercel.app/"
+              utilities={[next, react, tailwind]}
+            />
 
-          <Proyect
-            image={reciclame}
-            imgAlt="Web Recíclame"
-            title="Recíclame"
-            description="Segunda simulación laboral bajo el entorno del seleccionado de <b>No Contry</b>.<br/><br/>Recíclame es una red social destinada a la publicación de materiales reciclables, desarrollada con Java, Spring boot, Next Js, Tailwind, SQL."
-            url="https://s13-16-t-java-next-frontend.vercel.app/"
-            utilities={[next, react, tailwind]}
-            orderImg="lg:order-last"
-          />
+            <Proyect
+              image={imgBibliotech}
+              imgAlt="Web Bibliotech"
+              title="Bibliotech"
+              description="Proyecto generado en la comunidad de <b>No Contry</b>. Se llevó a cabo con un equipo multidisciplinario bajo la simulación de un entorno laboral. Codo a codo con las áreas de diseño, testing, back end y front end.<br/><br/>Bibliotech es una plataforma de gestión bibliotecaria, permitiendo al administrador cargar, editar y eliminar tanto libros como los miembros de la biblioteca y permitiendo asignarles a estos los préstamos."
+              url="https://bibliotechapp.website/"
+              utilities={[react, tailwind, typeScript, html5]}
+            />
 
-          <Proyect
-            image={imgBibliotech}
-            imgAlt="Web Bibliotech"
-            title="Bibliotech"
-            description="Proyecto generado en la comunidad de <b>No Contry</b>. Se llevó a cabo con un equipo multidisciplinario bajo la simulación de un entorno laboral. Codo a codo con las áreas de diseño, testing, back end y front end.<br/><br/>Bibliotech es una plataforma de gestión bibliotecaria, permitiendo al administrador cargar, editar y eliminar tanto libros como los miembros de la biblioteca y permitiendo asignarles a estos los préstamos."
-            url="https://bibliotechapp.website/"
-            utilities={[react, tailwind, typeScript, html5]}
-            orderImg="lg:order-first"
-          />
+            <Proyect
+              image={imgBuhoLibros}
+              imgAlt="Web Buho Libros"
+              title="Buho Libros"
+              description="El proyecto Búho Libros está diseñado para cumplir con el objetivo de, en primera medida, ser un boceto para un e-commerce, el cual puede escalar hasta convertirse en uno. La tienda está orientada a la venta de libros.<br/><br/>El proyecto está vinculado con una base de datos de Firestore, la cual nutre con los productos disponibles y a su vez guarda las simulaciones de órdenes de compra."
+              url="https://buho-libros.vercel.app/"
+              utilities={[react, firestore, css3, html5]}
+            />
 
-          <Proyect
-            image={imgBuhoLibros}
-            imgAlt="Web Buho Libros"
-            title="Buho Libros"
-            description="El proyecto Búho Libros está diseñado para cumplir con el objetivo de, en primera medida, ser un boceto para un e-commerce, el cual puede escalar hasta convertirse en uno. La tienda está orientada a la venta de libros.<br/><br/>El proyecto está vinculado con una base de datos de Firestore, la cual nutre con los productos disponibles y a su vez guarda las simulaciones de órdenes de compra."
-            url="https://buho-libros.vercel.app/"
-            utilities={[react, firestore, css3, html5]}
-            orderImg="lg:order-last"
-          />
+            <Proyect
+              image={imgUtnWallet}
+              imgAlt="Web Utn Wallet"
+              title="UTN Wallet"
+              description="Este proyecto simula un Exchange de cripto monedas. El mismo consume la Api de Cripto Ya, la cual nos permite obtener las cotizaciones en tiempo real, podremos simular compras y ventas, tener un historial y poder manipularlo, además nos brinda una billetera con las conversiones y análisis de inversiones."
+              url="https://utnwallet-exchange.vercel.app/"
+              utilities={[vue, css3, html5]}
+            />
 
-          <Proyect
-            image={imgUtnWallet}
-            imgAlt="Web Utn Wallet"
-            title="UTN Wallet"
-            description="Este proyecto simula un Exchange de cripto monedas. El mismo consume la Api de Cripto Ya, la cual nos permite obtener las cotizaciones en tiempo real, podremos simular compras y ventas, tener un historial y poder manipularlo, además nos brinda una billetera con las conversiones y análisis de inversiones."
-            url="https://utnwallet-exchange.vercel.app/"
-            utilities={[vue, css3, html5]}
-            orderImg="lg:order-first"
-          />
+            <Proyect
+              image={imgEud}
+              imgAlt="Web EUD Youth Department"
+              title="EUD Youth Department"
+              description="Este proyecto consistió en una prueba de una empresa, el cual debía desarrollar en base a un diseño otorgado. La misma se pasó con éxito."
+              url="https://luengomatias-eudyouth-tailwindproject.netlify.app/"
+              utilities={[javaScript, tailwind, html5]}
+            />
 
-          <Proyect
-            image={imgEud}
-            imgAlt="Web EUD Youth Department"
-            title="EUD Youth Department"
-            description="Este proyecto consistió en una prueba de una empresa, el cual debía desarrollar en base a un diseño otorgado. La misma se pasó con éxito."
-            url="https://luengomatias-eudyouth-tailwindproject.netlify.app/"
-            utilities={[javaScript, tailwind, html5]}
-            orderImg="lg:order-last"
-          />
-
-          <Proyect
-            image={imgDM}
-            imgAlt="Web Distribuidora Médica"
-            title="Distribuidora Médica"
-            description="De momento no se encuentra en producción. Este proyecto representó mi tesis, el mismo lo lleve a cabo en la empresa Distribuidora Médica y tiene como función ser un catálogo de los productos que ofrece y generar un contacto con el usuario final.<br/>Gracias a Identity de ASP.NET Core, generé acceso para usuarios registrados que son los habilitados para trabajar con el CRUD, vinculado con una base de datos relacional de SQL que es manipulada por Entity Framework."
-            url="https://github.com/MatiasLuengo/DistribuidoraMedica-PPS"
-            utilities={[cSharp, sql, css3, html5]}
-            orderImg="lg:order-first"
-          />
+            <Proyect
+              image={imgDM}
+              imgAlt="Web Distribuidora Médica"
+              title="Distribuidora Médica"
+              description="De momento no se encuentra en producción. Este proyecto representó mi tesis, el mismo lo lleve a cabo en la empresa Distribuidora Médica y tiene como función ser un catálogo de los productos que ofrece y generar un contacto con el usuario final.<br/>Gracias a Identity de ASP.NET Core, generé acceso para usuarios registrados que son los habilitados para trabajar con el CRUD, vinculado con una base de datos relacional de SQL que es manipulada por Entity Framework."
+              url="https://github.com/MatiasLuengo/DistribuidoraMedica-PPS"
+              utilities={[cSharp, sql, css3, html5]}
+            />
+          </div>
         </section>
       </div>
       <div className="h-20">
